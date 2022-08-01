@@ -18,6 +18,7 @@ The data set that contains information about Rockbuster’s
 film inventory, customers, and payments, among other things. The first thing you’ll need to
 do is load the data set into the PostgreSQL database. Keep in mind the following points
 regarding the data set:
+* It is the file name "Rockbuster.tar"
 ● It’s around 3MB and contains several files.
 ● A relationship exists between two tables if a column name is present in both tables.
 
