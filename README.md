@@ -21,7 +21,7 @@ regarding the data set:
 * It is the file name "Rockbuster.tar"
 ● It’s around 3MB and contains several files.
 ● A relationship exists between two tables if a column name is present in both tables.
-* I left the .txt files in the main folder. However, in the subfolder I added the .sql files for each step.  
+* The Scripts are located in the subfolder. I added the .sql files for each step.  
 
 
 TOOLS
