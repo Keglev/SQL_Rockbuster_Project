@@ -29,6 +29,7 @@ TOOLS
 
 To run this queries, first open the dataset in POSTGRES PGDMIN4. After that you can simply copy and paste the queries in PGADMIN.
 All queries are separeted in files, you can just copy and paste in the query editor, and they show the expected results.
+The presentation was made in Tableau and also in Power Point. 
 
 
 
