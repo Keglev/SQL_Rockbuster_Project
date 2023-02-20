@@ -9,7 +9,8 @@ EXPLAIN WITH cte_average(customer_id, first_name, last_name, city, country, amou
 		C.city,
 		D.country,
 		SUM(E.amount) AS amount_per_customer
-FROM customer A
+# Inner Join tables for answer the business question. What are the top customers by city? What are the top cities in the top 10 countries?
+ FROM customer A
 INNER JOIN address B ON A.address_id = B.address_id
 INNER JOIN city C ON B.city_id = C.city_id
 INNER JOIN country D On C.country_ID = D.country_id
@@ -21,7 +22,7 @@ LIMIT 5)
 SELECT AVG(amount)
 FROM cte_average
 
-/*Get customer count and total payment received against each country */
+/*Get customer count and total payment received against each country. What the average spent of the top customer in each city? */
 SELECT country,
        COUNT(A.customer_id) AS customer_count,
        SUM(amount) AS total_payment
@@ -32,7 +33,7 @@ INNER JOIN country D ON C.country_ID = D.country_ID
 INNER JOIN payment E ON a.customer_id = E.customer_id
 GROUP BY country
 
-# get the total film revenue
+# get the total film revenue. F>ind the revenue of each filme and select the top 10. It also select the genre.
 SELECT C.name AS genre, COUNT(A.film_id) AS count_of_films, SUM(E.amount) AS total_film_revenue			
 FROM film A			
 INNER JOIN film_category B ON A.film_id = B.film_id			
