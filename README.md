@@ -6,7 +6,7 @@ world. Facing stiff competition from streaming services such as Netflix and Amaz
 the Rockbuster Stealth management team is planning to use its existing movie licenses to
 launch an online video rental service in order to stay competitive.
 This project is a Business Inteligence project, and the objective is to give insights from the data, from inventory to customer insights, with data-related
-queries. 
+queries. This is a student project, like many similar projects made in top universities. It focues only in SQL queries, not in Python.
 
 
 DATA
