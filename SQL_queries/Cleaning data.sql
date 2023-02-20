@@ -1,4 +1,5 @@
 # this query looks for duplicate values in the Database, expecially in the Film Database
+# this query actualy DOES NOT erases values. It only filters them, according to the criteria.
 
 SELECT title, release_year,
 language_id,
